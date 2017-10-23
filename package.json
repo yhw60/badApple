@@ -1,0 +1,18 @@
+{
+  "name": "badapple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager ./ badApple --win --out badApple --arch=x64 --version 0.0.1 --overwrite --ignore=node_modules" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mpg123": "^0.2.3",
+    "nexe": "^2.0.0-rc.11",
+    "playmusic": "^2.3.0",
+    "q": "^1.5.0"
+  }
+}
